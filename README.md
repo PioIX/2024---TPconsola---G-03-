@@ -9,3 +9,5 @@ La lista de parametros que puede recibir son:
 ## Consola Back-end
 La consola del back muestra el estado de los pedidos enviados y recibidos, mosntrando los errores, en caso de haberlos, o las especificaciones del pedido. La consola del back solo es visible para el dueño del programa, por lo que tiene una libertad mucho mayor. Esto la vuelve una herramienta con la cual el desarrollador puede hacer pruebas o mostrar información sensible sin el riesgo de que el usuario lo vea. 
 
+## console.table()
+El método estático muestra datos tabulares como una tabla. Esta función toma un argumento obligatorio data, que debe ser una matriz o un objeto, y un parámetro opcional adicional columns. Se registra datacomo una tabla. Cada elemento de la matriz (o propiedad enumerable si dataes un objeto) será una fila de la tabla.
