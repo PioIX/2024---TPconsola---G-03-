@@ -12,5 +12,8 @@ En la consola del fron-end que se muestra en el navegador en el chrome, safari, 
 ## Consola Back-end
 La consola del back muestra el estado de los pedidos enviados y recibidos, mosntrando los errores, en caso de haberlos, o las especificaciones del pedido. Por ejemplo, en el Futbol Grid, se muestra el pedido hecho de jugadores y usuarios, pudiendo controlar si ocurrió algún error. La consola del back solo es visible para el dueño del programa, por lo que tiene una libertad mucho mayor. Esto la vuelve una herramienta con la cual el desarrollador puede hacer pruebas o mostrar información sensible sin el riesgo de que el usuario lo vea. 
 
+## console.time()
+El console.time( inicia un temporizador que puede ser utiizado para realizar un seguimiento de la duración de una determinada operación. Se encarga de darle a cada temporizador un nombre único y puede tener hasta 10.000 temporizadores ejecutándose en una página determinada.
+
 
 
