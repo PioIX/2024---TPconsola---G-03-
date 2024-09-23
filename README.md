@@ -26,6 +26,10 @@ Limpia la consola, borrando todos os mensajes y lineas de codigo escritas anteri
 ```
 console.clear()
 ```
+![](Console.clear1.png)
+
+
+![](Console.clear2.png)
 ## console.table()
 El método estático muestra datos tabulares como una tabla. Esta función toma un argumento obligatorio data, que debe ser una matriz o un objeto, y un parámetro opcional adicional columns. Se registra datacomo una tabla. Cada elemento de la matriz (o propiedad enumerable si dataes un objeto) será una fila de la tabla.
 
