@@ -14,7 +14,12 @@ La consola del back muestra el estado de los pedidos enviados y recibidos, mosnt
 
 ## console.time()
 El console.time( inicia un temporizador que puede ser utiizado para realizar un seguimiento de la duración de una determinada operación. Se encarga de darle a cada temporizador un nombre único y puede tener hasta 10.000 temporizadores ejecutándose en una página determinada.
-
+```
+console.time("temporizador")
+```
+```
+console.timeEnd("temporizador")
+```
 ## Console.clear
 Limpia la consola, borrando todos os mensajes y lineas de codigo escritas anteriormente (Sin borrar sus resultados). Solo limpia la consola en caso de que esta lo permita. Las consolas que no lo permitan son las que están corriendo en la terminal. No puede recibir ningún parametro y o retorna ningún valor. 
 
