@@ -20,9 +20,21 @@ console.time("temporizador")
 ```
 console.timeEnd("temporizador")
 ```
+![](Console.time.png)
 ## Console.clear
 Limpia la consola, borrando todos os mensajes y lineas de codigo escritas anteriormente (Sin borrar sus resultados). Solo limpia la consola en caso de que esta lo permita. Las consolas que no lo permitan son las que están corriendo en la terminal. No puede recibir ningún parametro y o retorna ningún valor. 
+```
+console.clear()
+```
+![](Console.clear1.png)
 
+
+![](Console.clear2.png)
 ## console.table()
 El método estático muestra datos tabulares como una tabla. Esta función toma un argumento obligatorio data, que debe ser una matriz o un objeto, y un parámetro opcional adicional columns. Se registra datacomo una tabla. Cada elemento de la matriz (o propiedad enumerable si dataes un objeto) será una fila de la tabla.
-
+```
+function iniciarTimer() {
+    console.table(users)
+}
+```
+![](ConsoleTable.png)
